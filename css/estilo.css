@@ -1,0 +1,161 @@
+*{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+   
+    background-image: url("../img/fondopersona.png");
+    background-repeat: repeat;
+    background-size: 100%;
+}
+h1{
+    font-size: 8em;
+    margin-top: -4%;
+    padding:5px;
+    
+}
+nav{
+    margin: 10px;
+    padding: 20px;
+}
+
+.logo-titulo{
+    width: 10%;
+    position: absolute;
+    top: -3%;
+    right: -10%;
+    animation-name: animacion-carrito;
+    animation-duration: 5s;
+}
+.contenedor-titulo{
+    position: fixed;
+}
+ 
+div ul li{
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none; 
+    color: blue;
+}
+div ul img{
+    background-color: transparent;
+    border-radius: 10px;
+    width: 70%;
+    position: absolute;
+    left: 85%;
+}
+
+.desplegable2 div li img{
+    width: 40%;
+    position: absolute;
+    right: -60px;
+}
+.desplegable3 div li img{
+    width: 35%;
+    position: absolute;
+    right:-180%;
+    top: 30px;
+}
+div ul li span{
+    color:blue;
+    font-size: 3em;
+}
+div ul li span:hover{
+    color: black;
+    transform: scale(1.1,1.1);
+  
+}
+nav li span{
+    color:#FFCA19;
+    font-size: 5em;
+    font-weight: bold;
+}
+nav li span:hover{
+    color:black;
+    
+}
+
+
+
+
+.desplegable{
+    position: absolute;
+    top: 25%;
+    display: inline-block;
+    left: 3%;
+    
+}
+.desplegable-contenido{
+    display: none;
+    position: absolute;
+    top: -10%;
+    left: 99%;
+    background-color: transparent;
+    z-index: 1;
+    width: 100%;
+    
+}
+
+
+.desplegable:hover .desplegable-contenido{
+    display: block;
+}
+
+
+.desplegable2{
+    position: absolute;
+    display: inline-block;
+    padding: 20px;
+    top: 40%;
+}
+.desplegable-contenido2{
+    display: none;
+    position: absolute;
+    top: -10%;
+    left: 100%;
+    background-color: transparent;
+    z-index: 1;
+    width: 180%;
+}
+.desplegable2:hover .desplegable-contenido2{
+    display: block;
+}
+
+
+
+.desplegable3{
+    position: absolute;
+    display: inline-block;
+    padding: 20px;
+    top: 60%;
+    left: 0,5%;
+}
+.desplegable-contenido3{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    right: -124%;
+    top: -5%;
+    background-color: transparent;
+    z-index: 1;
+    width: 130%;
+}
+.desplegable3:hover .desplegable-contenido3{
+    display: block;
+}
+#productos{
+    position:absolute;
+    top: 1000px;
+
+}
+
+
+@keyframes animacion-carrito{
+    from {
+        transform: translateX(-1000%);
+    }
+    to{
+        transform: translate(0%);
+    }
+}
