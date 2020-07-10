@@ -149,7 +149,18 @@ nav li span:hover{
     top: 1000px;
 
 }
+.figura-animacion{
+    position: absolute;
+    top: 16%;
+    background-color: black;
+    width: 10%;
+    height: 2%;
+    border: 10px;
+    border-color: black;
 
+    animation-name: animacion-figura;
+    animation-duration: 5s;
+}
 
 @keyframes animacion-carrito{
     from {
@@ -158,4 +169,12 @@ nav li span:hover{
     to{
         transform: translate(0%);
     }
+}
+@keyframes animacion-figura {
+    0%  {background-color:black; transform:translate(1px);}
+    25%  {background-color:green; transform:translate(100px);}
+    50% {background-color:yellow; transform:translate(600px);}
+    100% {background-color:blue; transform:translate(1000px);}
+
+    
 }
