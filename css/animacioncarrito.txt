@@ -1,0 +1,9 @@
+
+15%  {background-color:green; transform:translate(190%);}
+25%  {background-color:green; transform:translate(260%);}
+35% {background-color:yellow; transform:translate(390%);}
+50% {background-color:yellow; transform:translate(410%);}
+75% {background-color:yellow; transform:translate(510%);}
+85% {background-color:black; transform:translate(610%);}
+95% {background-color:yellow; transform:translate(720%);}
+100% {background-color:black; transform:translate(880%);}

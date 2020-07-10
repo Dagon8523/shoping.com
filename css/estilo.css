@@ -16,8 +16,9 @@ h1{
 }
 nav{
     margin: 10px;
-    padding: 20px;
+    padding: 20px;   
 }
+
 
 .logo-titulo{
     width: 10%;
@@ -37,6 +38,7 @@ div ul li{
     flex-direction: column;
     list-style-type: none; 
     color: blue;
+    
 }
 div ul img{
     background-color: transparent;
@@ -67,12 +69,12 @@ div ul li span:hover{
   
 }
 nav li span{
-    color:#FFCA19;
+    color:black;
     font-size: 5em;
     font-weight: bold;
 }
 nav li span:hover{
-    color:black;
+    color:#FFCA19;
     
 }
 
@@ -152,8 +154,8 @@ nav li span:hover{
 .figura-animacion{
     position: absolute;
     top: 16%;
-    background-color: black;
-    width: 10%;
+    background-color: #FFCA19;
+    width: 6%;
     height: 2%;
     border: 10px;
     border-color: black;
@@ -171,10 +173,6 @@ nav li span:hover{
     }
 }
 @keyframes animacion-figura {
-    0%  {background-color:black; transform:translate(1px);}
-    25%  {background-color:green; transform:translate(100px);}
-    50% {background-color:yellow; transform:translate(600px);}
-    100% {background-color:blue; transform:translate(1000px);}
-
-    
+    0%  {background-color:#FFCA19; transform:translate(10%);}
+    10%  {background-color:black ; transform:translate(70%);}  
 }
