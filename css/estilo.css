@@ -10,10 +10,11 @@ body{
 }
 h1{
     font-size: 8em;
-    margin-top: -4%;
+    margin-top: 0%;
     padding:5px;
-    
+    font-family: 'bttf';   
 }
+
 nav{
     margin: 10px;
     padding: 20px;   
@@ -23,7 +24,7 @@ nav{
 .logo-titulo{
     width: 10%;
     position: absolute;
-    top: -3%;
+    top: 6%;
     right: -10%;
     animation-name: animacion-carrito;
     animation-duration: 5s;
@@ -153,17 +154,22 @@ nav li span:hover{
 }
 .figura-animacion{
     position: absolute;
-    top: 16%;
+    top: 25%;
     background-color: #FFCA19;
     width: 6%;
     height: 2%;
+    left: 5%;
     border: 10px;
     border-color: black;
-
     animation-name: animacion-figura;
     animation-duration: 5s;
 }
 
+
+@font-face{
+    font-family: 'bttf';
+    src: url("../fuente/BTTF.ttf");
+}
 @keyframes animacion-carrito{
     from {
         transform: translateX(-1000%);
