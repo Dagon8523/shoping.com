@@ -7,11 +7,41 @@
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
+@media only screen and (max-width:600px){
+    body{
+   
+        background-image: url("../img/fondopersona.png");
+        background-repeat: repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+    h1{
+        font-size: calc(2em - 1vw);
+        margin-top: 0%;
+        padding:5px;
+        font-family: 'bttf';   
+    }
+    .logo-titulo{
+        width: 10%;
+        position: absolute;
+        top: 6%;
+        right: -10%;
+        animation-name: animacion-carrito;
+        animation-duration: 5s;
+    }
+}
+@media (min-width:600px) and (max-width:900px){
+    body{
+        background-color: #FFCA19;
+    }
+}
+@media (min-width:900px){
+    
 body{
    
     background-image: url("../img/fondopersona.png");
     background-repeat: repeat;
+    background-attachment: fixed;
     background-size: 100%;
 }
 h1{
@@ -171,6 +201,7 @@ nav li span:hover{
     animation-duration: 5s;
 }
 
+}
 
 
 @keyframes animacion-carrito{
