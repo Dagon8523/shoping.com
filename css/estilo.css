@@ -24,11 +24,148 @@
     .logo-titulo{
         width: 10%;
         position: absolute;
-        top: 6%;
-        right: -10%;
+        top: 2%;
+        right: 7%;
         animation-name: animacion-carrito;
         animation-duration: 5s;
     }
+    .contenedor-titulo{
+        position: fixed;
+    }
+    div ul li{
+        z-index: 0;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none; 
+        color: blue;
+        
+    }
+    div ul img{
+        background-color: transparent;
+        border-radius: 10px;
+        width: 70%;
+        position: absolute;
+        left: 85%;
+    }
+    
+    .desplegable2 div li img{
+        width: 40%;
+        position: absolute;
+        right: -60px;
+    }
+    .desplegable3 div li img{
+        width: 35%;
+        position: absolute;
+        right:-180%;
+        top: 30px;
+    }
+    div ul li span{
+        color:blue;
+        font-size: calc(2em - 1vw);
+    }
+    div ul li span:hover{
+        color: black;
+        transform: scale(1.1,1.1);
+      
+    }
+    nav li span{
+        color:black;
+        font-size: calc(2em - 1vw);;
+        font-weight: bold;
+    }
+    nav li span:hover{
+        color:#FFCA19;
+        
+    }
+    
+    
+    
+    
+    .desplegable{
+        position: absolute;
+        top: 25%;
+        display: inline-block;
+        left: 3%;
+        
+    }
+    .desplegable-contenido{
+        display: none;
+        position: absolute;
+        top: -10%;
+        left: 99%;
+        background-color: transparent;
+        z-index: 1;
+        width: 100%;
+        
+    }
+    
+    
+    .desplegable:hover .desplegable-contenido{
+        display: block;
+    }
+    
+    
+    .desplegable2{
+        position: absolute;
+        display: inline-block;
+        padding: 20px;
+        top: 40%;
+    }
+    .desplegable-contenido2{
+        display: none;
+        position: absolute;
+        top: -10%;
+        left: 100%;
+        background-color: transparent;
+        z-index: 1;
+        width: 180%;
+    }
+    .desplegable2:hover .desplegable-contenido2{
+        display: block;
+    }
+    
+    
+    
+    .desplegable3{
+        position: absolute;
+        display: inline-block;
+        padding: 20px;
+        top: 60%;
+        left: 0,5%;
+    }
+    .desplegable-contenido3{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        right: -124%;
+        top: -5%;
+        background-color: transparent;
+        z-index: 1;
+        width: 130%;
+    }
+    .desplegable3:hover .desplegable-contenido3{
+        display: block;
+    }
+    #productos{
+        position:absolute;
+        top: 1000px;
+    
+    }
+    .figura-animacion{
+        position: absolute;
+        top: 25%;
+        background-color: #FFCA19;
+        width: 6%;
+        height: 2%;
+        left: 5%;
+        border: 10px;
+        border-color: black;
+        animation-name: animacion-figura;
+        animation-duration: 5s;
+    }
+
+    
+
 }
 @media (min-width:600px) and (max-width:900px){
     body{
