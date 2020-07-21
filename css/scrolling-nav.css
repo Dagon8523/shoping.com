@@ -1,0 +1,54 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/templates/scrolling-nav)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+@font-face{
+  font-family: 'BTTF';
+  src: url(../font/BTTF.ttf);
+}
+header {
+  padding: 156px 0 100px; 
+}
+.bg-primary {
+  background-color: transparent !important;
+}
+.navbar-dark .navbar-brand {
+  font-family: 'BTTF';
+  color: #FFCA19;
+}
+
+.carousel-caption > h1{
+  z-index: 1;
+  color:#FFCA19;
+  font-family: 'BTTF';
+  opacity: 30%;
+  width: 100%;
+ 
+}
+
+section {
+  padding: 150px 0;
+}
+body{
+  background-image: url("../img/fondopersona.png");
+  background-size: 100%;
+  background-attachment: fixed;
+}
+.logo-titulo{
+  width: 3%;
+  height: auto;
+  position: absolute;
+  top: 8%;
+  left: 22%;
+  animation-name: animacion-carrito;
+  animation-duration: 5s;
+}
+@keyframes animacion-carrito{
+  from {
+      transform: translateX(-800%);
+  }
+  to{
+      transform: translate(0%);
+  }
+}

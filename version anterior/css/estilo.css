@@ -24,8 +24,8 @@
     .logo-titulo{
         width: 10%;
         position: absolute;
-        top: 2%;
-        right: 7%;
+        top: 8%;
+        right: -8%;
         animation-name: animacion-carrito;
         animation-duration: 5s;
     }
