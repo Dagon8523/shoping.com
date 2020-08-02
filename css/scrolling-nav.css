@@ -44,6 +44,152 @@ body{
   animation-name: animacion-carrito;
   animation-duration: 5s;
 }
+.nivel1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  position: relative;
+  left: -2%;
+  
+}
+.nivel1 > #producto1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  position: relative;
+  margin: 10px;
+  padding: 20px;
+  width: 600%;
+ 
+}
+.nivel1 > #producto2{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  position: relative;
+  margin: 10px;
+  padding: 20px;
+  width: 600%;
+}
+.nivel1 > #producto3{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  position: relative;
+   margin: 10px;
+  padding: 20px;
+  width: 600%;
+}
+.nivel1 > #producto4{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  position: relative;
+   margin: 10px;
+  padding: 20px;
+  width: 600%;
+}
+.nivel1 > #producto5{
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  position: relative;
+   margin: 10px;
+  padding: 20px;
+  width: 600%;
+}
+.nivel1 > #producto6{
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  position: relative;
+   margin: 10px;
+  padding: 20px;
+  width: 600%;
+}
+.nivel2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  position: relative;
+  left: -2%;
+  
+}
+
+.nivel2 > #producto1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  position: relative;
+  margin: 10px;
+  padding: 20px;
+  width: 600%;
+ 
+}
+.nivel2 > #producto2{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  position: relative;
+  margin: 10px;
+  padding: 20px;
+  width: 600%;
+}
+.nivel2 > #producto3{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  position: relative;
+   margin: 10px;
+  padding: 20px;
+  width: 600%;
+}
+.nivel2 > #producto4{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  position: relative;
+   margin: 10px;
+  padding: 20px;
+  width: 600%;
+}
+.nivel2 > #producto5{
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  position: relative;
+   margin: 10px;
+  padding: 20px;
+  width: 600%;
+}
+.nivel2 > #producto6{
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  position: relative;
+   margin: 10px;
+  padding: 20px;
+  width: 600%;
+}
+
+
+
+
+
+
+
 @keyframes animacion-carrito{
   from {
       transform: translateX(-800%);
