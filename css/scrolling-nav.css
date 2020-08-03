@@ -7,9 +7,7 @@
   font-family: 'BTTF';
   src: url(../font/BTTF.ttf);
 }
-header {
-  padding: 156px 0 100px; 
-}
+
 .bg-primary {
   background-color: transparent !important;
 }
@@ -17,6 +15,17 @@ header {
   font-family: 'BTTF';
   color: #FFCA19;
 }
+
+  
+  
+ 
+
+.container-xl {
+  margin-top: 4.1%;
+  max-width: 3140px;
+}
+
+
 
 .carousel-caption > h1{
   z-index: 1;
@@ -44,6 +53,14 @@ body{
   animation-name: animacion-carrito;
   animation-duration: 5s;
 }
+.vitrina{
+  margin: 10px;
+  padding: 5px;
+  position: relative;
+  left: 5%;
+
+}
+
 .nivel1{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
